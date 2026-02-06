@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="search" method="post">
+<label>Search Here...</label>
+<input type="text" placeholder="Enter Here to Search..">
+</form>
+</body>
+</html>

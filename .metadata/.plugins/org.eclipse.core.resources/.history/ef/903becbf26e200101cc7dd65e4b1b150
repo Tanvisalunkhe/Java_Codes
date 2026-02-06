@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        /* Navbar */
+        .navbar {
+            background-color: #1f3c88; /* Dark Blue */
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar h1 {
+            color: white;
+            font-size: 22px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 25px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 6px 10px;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #ffffff;
+            color: #1f3c88;
+            border-radius: 4px;
+        }
+        .container {
+            width: 400px;
+            margin: auto;
+            background: white;
+            padding: 50px;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 12px 0;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+   <!-- Navigation Bar -->
+    <div class="navbar">
+        <h1>Student Portal</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="Search.html">Search Topics</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
+
+
+<div class="container">
+    <h2>Student Registration Form</h2>
+
+    <form action="register" method="post">
+        <label>Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+
+        <label>Email:</label>
+        <input type="email"name="email" placeholder="Enter your email" required>
+
+        <label>Password:</label>
+        <input type="password" name="pass" placeholder="Enter password" required>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"required> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender"value="other"> Other
+
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="date" required>
+
+        <label>Course:</label>
+        <select name="course">
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BSc</option>
+            <option>BCom</option>
+            <option>BA</option>
+            <option>MCA</option>
+        </select>
+
+        <label>Address:</label>
+        <textarea rows="3"name="add" placeholder="Enter address"></textarea>
+
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>

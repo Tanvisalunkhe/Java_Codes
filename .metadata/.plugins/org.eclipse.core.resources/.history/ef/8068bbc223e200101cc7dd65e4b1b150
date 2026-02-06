@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Profile Page
+</title>
+</head>
+<body>
+<h2>Student Information:</h2>
+<hr>
+<label>Student id: ${Studid}</label>
+<br>
+<br>
+<label>Student Name: ${Studname}</label>
+<br>
+<br>
+<label>Student Email: ${Studemail}</label>
+<br>
+<br>
+<label>Student Gender: ${Studgender}</label>
+<br>
+<br>
+<label>Student Date-Of-Birth: ${Stud_DOB}</label>
+<br>
+<br>
+<label>Course Name: ${course}</label>
+<br>
+<br>
+<label>Student Address: ${}</label>
+<br>
+<br>
+
+</body>
+</html>
