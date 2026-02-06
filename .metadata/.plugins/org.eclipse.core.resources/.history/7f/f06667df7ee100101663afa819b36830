@@ -1,8 +1,0 @@
-package demo;
-
-import jakarta.servlet.http.HttpServlet;
-
-public class Search extends HttpServlet{
-
-	dopost
-}

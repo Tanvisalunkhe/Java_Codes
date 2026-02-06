@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\tanvi\OneDrive\Desktop\JavaByKiranAcademy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\833971360.index
-\demo\src\main\java
